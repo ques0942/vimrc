@@ -41,6 +41,8 @@ Bundle 'wombat256.vim'
 " desert
 Bundle 'desert.vim'
 
+" highlight
+set hlsearch
 
 filetype plugin indent on
 

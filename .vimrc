@@ -41,6 +41,10 @@ Bundle 'wombat256.vim'
 " desert
 Bundle 'desert.vim'
 
+" align
+Bundle 'https://github.com/vim-scripts/Align.git'
+
+
 " highlight
 set hlsearch
 

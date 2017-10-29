@@ -14,8 +14,8 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 " plugins
 " vim-ref
 NeoBundle 'https://github.com/thinca/vim-ref'
-" syntastic
-NeoBundle 'scrooloose/syntastic'
+" alo
+NeoBundle 'w0rp/ale'
 " flake8
 NeoBundle 'https://github.com/nvie/vim-flake8.git'
 " quickrun
@@ -34,6 +34,12 @@ NeoBundle 'https://github.com/bronson/vim-trailing-whitespace'
 "" python
 " jedi-vim
 NeoBundle 'https://github.com/davidhalter/jedi-vim.git'
+" pyenv
+NeoBundleLazy 'lambdalisue/vim-pyenv', {
+        \ 'depends': ['davidhalter/jedi-vim'],
+        \ 'autoload': {
+        \   'filetypes': ['python', 'python3'],
+        \ }}
 
 "" javascript
 " yajs.vim
